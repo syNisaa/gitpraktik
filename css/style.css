@@ -1,0 +1,100 @@
+/* Universal */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Class */
+.imgku {
+    border-radius: 100%;
+    opacity: 0.6;
+}
+
+.isi {
+    border-color: aquamarine;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    transform: rotate(-10deg);
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* id */
+#nav {
+    border: 1px;
+    border-radius: 10px;
+    border-style: dotted;
+    padding: 10px;
+
+}
+
+ul {
+    color: red;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    background-color: aquamarine;
+}
+
+/* CSS BASIC : color, background, image, input, font, align, padding, margin, border, opacity, border radius dll */
+
+
+#account {
+    border-radius: 25px;
+    background: #cad1e7;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 3px 2px white;
+}
+
+#bljr {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#des{
+    color: black;
+}
+
+h3{
+    text-shadow: 1px 1px black;
+}
+
+h1{
+    text-shadow: 2px 2px red;
+}
+
+th{
+    color: rgb(204, 0, 255);
+}
